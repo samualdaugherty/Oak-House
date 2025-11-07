@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@theme {
+  --color-oak-yellow: #ffc807;
+  --color-light-grey: #ebebeb;
+  --color-white: #f4f4f4;
+  --color-black: #1a1b1c;
+  --color-blue: #2e4052;
+  --color-bg: #f9f9f9;
+  
+  --font-montserrat: 'Montserrat', sans-serif;
+  --font-opensans: 'Open Sans', sans-serif;
+}
+
+:root {
+  --background: #f9f9f9;
+  --foreground: #000000;
+}
+
+body {
+  background: #f9f9f9;
+  color: #000;
+  font-family: var(--font-opensans), sans-serif;
+  font-size: 18px;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-montserrat), sans-serif;
+  font-weight: 800;
+}
+
+/* Yellow underline link style */
+.yellow-link {
+  position: relative;
+  z-index: 10;
+  white-space: nowrap;
+}
+
+.yellow-link::after {
+  content: '';
+  position: absolute;
+  background: #ffc807;
+  height: 5px;
+  width: 102%;
+  left: -1%;
+  z-index: -1;
+  top: 75%;
+}
