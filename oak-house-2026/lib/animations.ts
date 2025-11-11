@@ -14,7 +14,6 @@ import { Spring } from 'framer-motion';
  * - Color changes (use CSS transitions)
  */
 export const quickSpring: Spring = {
-  type: 'spring',
   stiffness: 300,
   damping: 20,
   mass: 1,
