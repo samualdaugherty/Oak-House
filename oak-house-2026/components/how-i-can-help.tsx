@@ -37,10 +37,10 @@ export default function HowICanHelp() {
           <div className="flex flex-col md:flex-row gap-8 md:gap-12 lg:gap-24 items-start md:items-center">
             {/* Title with underline and chevron */}
             <div className="flex flex-col items-start pb-[30px] relative flex-shrink-0">
-              <h3 className="font-extrabold leading-[1.1] text-[var(--color-oak)] text-4xl md:text-5xl lg:text-[48px] mb-[-30px] relative z-[2] pr-16">
+              <h3 className="font-extrabold leading-[1.1] text-[var(--color-oak)] text-4xl md:text-5xl lg:text-[48px] mb-[-12px] md:mb-[-30px] relative z-[2] pr-16">
                 Easy Process...
               </h3>
-              <div className="flex items-center mb-[-30px] relative w-full z-[1]">
+              <div className="flex items-center mb-[-12px] md:mb-[-30px] relative w-full z-[1]">
                 <div className="bg-[var(--color-sunburst)] h-3 rounded-full flex-grow mr-[-8px]" />
                 {/* Chevron pointing right - hidden on mobile */}
                 <div className="hidden md:flex items-center justify-center relative flex-shrink-0">
@@ -84,10 +84,10 @@ export default function HowICanHelp() {
           <div className="flex flex-col md:flex-row-reverse gap-8 md:gap-12 lg:gap-24 items-start md:items-center justify-end lg:ml-auto">
             {/* Title with underline and chevron */}
             <div className="flex flex-col items-end pb-[30px] relative flex-shrink-0 w-full md:w-auto">
-              <h3 className="font-extrabold leading-[1.1] text-[var(--color-oak)] text-4xl md:text-5xl lg:text-[48px] mb-[-30px] relative z-[2] pl-16 text-right md:text-left">
+              <h3 className="font-extrabold leading-[1.1] text-[var(--color-oak)] text-4xl md:text-5xl lg:text-[48px] mb-[-12px] md:mb-[-30px] relative z-[2] pl-16 text-right md:text-left">
                 Pricing + Contact
               </h3>
-              <div className="flex items-center justify-end mb-[-30px] relative w-full z-[1]">
+              <div className="flex items-center justify-end mb-[-12px] md:mb-[-30px] relative w-full z-[1]">
                 {/* Chevron pointing left - hidden on mobile */}
                 <div className="hidden md:flex items-center justify-center ml-[-8px] relative flex-shrink-0">
                   <Image
